@@ -10,7 +10,7 @@ def oxford_comma(a)
   i = 0
     while i <= a.length - 1
       myStr += (a[i]+", ")
-      i++
+      i += 1
     
     myStr += a.last
  else a.length
