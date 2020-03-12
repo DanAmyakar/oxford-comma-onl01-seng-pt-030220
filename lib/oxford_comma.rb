@@ -23,3 +23,5 @@ end
 
 puts oxford_comma(a1)
 puts oxford_comma(a2)
+puts oxford_comma(a3)
+puts oxford_comma(a4)
