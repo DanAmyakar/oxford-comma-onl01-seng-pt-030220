@@ -4,6 +4,7 @@ a3 = ["kiwi", "durian", "starfruit"]
 a4 = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "pomelos"]
 
 def oxford_comma(a)
+
  if a.length > 1
   myStr = "" 
   i = 0
@@ -17,13 +18,10 @@ def oxford_comma(a)
    return a.join
  
    
- end
+ 
 end
 
-def each(arr)
 
-
-end
 
 
 puts oxford_comma(a1)
