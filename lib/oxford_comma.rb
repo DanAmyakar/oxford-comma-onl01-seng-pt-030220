@@ -12,9 +12,10 @@ def oxford_comma(a)
       myStr += (a[i]+", ")
       i += 1
     
-    myStr += a.last
- else a.length
-   return a.join
+     myStr += a.last
+   else a.length
+     return a.join
+  end
 end
 
 
