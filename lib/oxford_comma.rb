@@ -11,11 +11,11 @@ def oxford_comma(a)
     while i <= a.length - 1
       myStr += (a[i]+", ")
       i += 1
-    
+    end
      myStr += a.last
-   else
+ else
      return a.join
-  end
+ end
 end
 
 
