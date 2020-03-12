@@ -11,7 +11,7 @@ def oxford_comma(a)
     while i <= a.length - 1
       myStr += (a[i]+", ")
       i++
-    end
+    
     myStr += a.last
  else a.length
    return a.join
