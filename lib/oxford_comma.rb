@@ -13,7 +13,7 @@ def oxford_comma(a)
       i += 1
     
      myStr += a.last
-   else a.length
+   else
      return a.join
   end
 end
