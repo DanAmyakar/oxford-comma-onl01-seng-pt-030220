@@ -15,9 +15,6 @@ def oxford_comma(a)
     myStr += a.last
  else a.length
    return a.join
- 
-   
- 
 end
 
 
