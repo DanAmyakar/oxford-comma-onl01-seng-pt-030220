@@ -5,8 +5,14 @@ a4 = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "pome
 
 def oxford_comma(a)
  if a.length > 1
-  
-   
+  myStr = "" 
+  i = 0
+    while i == a.length - 1
+      myStr += (a[i]+", ")
+      i++
+      
+    end
+    myStr += a.last
  else a.length
    return a.join
  
